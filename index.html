@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Benvenuto nel mio portfolio. Sono uno sviluppatore web specializzato in tecnologie front-end.">
+    <title>Il mio Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#about-me">Chi sono</a></li>
+                <li><a href="#projects">Progetti</a></li>
+                <li><a href="#skills">Competenze</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about-me">
+        <h2>Chi sono</h2>
+        <p>Ciao! Sono uno sviluppatore web appassionato con esperienza in HTML, CSS e JavaScript.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Progetti</h2>
+        <article>
+            <h3>Sito Portfolio</h3>
+            <p>Questo è un progetto personale dove mostro le mie competenze e i miei progetti.</p>
+        </article>
+        <article>
+            <h3>Gestore delle Attività</h3>
+            <p>Un'app per gestire le attività quotidiane e aumentare la produttività.</p>
+        </article>
+    </section>
+
+    <section id="skills">
+        <h2>Competenze</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contattami</h2>
+        <form action="#" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Messaggio:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+	<script src="script.js"></script>
+</body>
+</html>
